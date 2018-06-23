@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.jingbiaozhen.recyclerviewdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/linear_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="线性布局"
+       />
+    <TextView
+        android:id="@+id/grid_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="网格布局"
+       />
+    <TextView
+        android:id="@+id/multi_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="多种布局"
+       />
+    <TextView
+        android:id="@+id/head_foot_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="添加头脚布局"
+       />
+    <TextView
+        android:id="@+id/staggeredGrid_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="瀑布流布局"
+       />
+
+</LinearLayout>
